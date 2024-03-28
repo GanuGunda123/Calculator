@@ -1,0 +1,63 @@
+.calculator
+{
+    border : 2px solid;
+    border-radius: 7px;
+    width:20%;
+    background-color: yellow;
+    margin : 15% 20% 15% 40%;
+}
+
+.honda
+{
+    margin : 3%;
+    width : 90%;
+
+}
+
+.hind
+{
+    width:25%;
+    height:25%;
+    margin:3%;
+    background-color: aqua;
+    font-weight: 700;
+    color: black;
+}
+.hind:hover
+{
+    background-color: darkblue;
+    transition-duration: 1s;
+    color: white;
+}
+
+.hind1
+{
+    width:25%;
+    height:25%;
+    background-color: aqua;
+    font-weight: 700;
+    margin:3% 3% 3% 17%;
+    color: black;
+}
+.hind1:hover
+{
+    background-color: darkblue;
+    transition-duration: 1s;
+    color: white;
+}
+
+.hind2
+{
+    width:25%;
+    height:25%;
+    margin:3% 3% 3% 10%;
+    background-color: aqua;
+    font-weight: 700;
+    color: black;
+}
+.hind2:hover
+{
+    background-color: darkblue;
+    transition-duration: 1s;
+    color: white;
+}

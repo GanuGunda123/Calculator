@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="honda">
+        <div class="part">
+            <button class="hind"
+             onclick="currvalue = ' '; 
+             document.querySelector('.honda').value=currvalue;"> 
+                C 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '1'; 
+            document.querySelector('.honda').value=currvalue;">
+                 1 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '2'; 
+            document.querySelector('.honda').value=currvalue;"> 
+                2 
+            </button>
+
+            <button class="hind" 
+            onclick="currvalue = currvalue + '3'; 
+            document.querySelector('.honda').value=currvalue;"> 
+                3 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '4'; 
+            document.querySelector('.honda').value=currvalue;"> 
+                4 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '5'; 
+            document.querySelector('.honda').value=currvalue;"> 
+                5 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '6'; 
+            document.querySelector('.honda').value=currvalue;"> 
+                6 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '7'; 
+            document.querySelector('.honda').value=currvalue;">
+             7 
+            </button>
+
+            <button class="hind" 
+            onclick="currvalue = currvalue + '8'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             8 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '9'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             9 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '0'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             0 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '.'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             . 
+            </button>
+
+            <button class="hind" 
+            onclick="currvalue = currvalue + '+'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             + 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '-'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             - 
+            </button>
+
+            <button class="hind"
+            onclick="currvalue = currvalue + '/'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             / 
+            </button>
+
+            <button class="hind1" 
+            onclick="currvalue = currvalue + '*'; 
+            document.querySelector('.honda').value=currvalue;"> 
+             * 
+            </button>
+
+            <button class="hind2"
+            onclick="let result=eval(currvalue); 
+            document.querySelector('.honda').value=result;"> 
+                =
+            </button>
+
+        </div>
+    </div>
+
+    <script>
+        let currvalue = ' ';
+        document.querySelector('.honda').value=currvalue;
+    </script>
+</body>
+</html>
